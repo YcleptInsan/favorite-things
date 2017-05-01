@@ -4,10 +4,11 @@ $(document).ready(function(){
     var inputList = $("#faveList").val();
     var array = [];
 
-    var listToArray = inputList.split(" ");
-    array.push(listToArray);
+    var split = inputList.split(" ");
+    var reverse = split.reverse();
+    array.push(reverse);
     console.log(array);
-    $("#show").text(inputList);
+    $("#show").text(array);
 
 
   });
