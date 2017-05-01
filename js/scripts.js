@@ -11,9 +11,7 @@ $(document).ready(function(){
     var three = array [3];
     var array2 = []
     array2.push(one, two, three)
-    console.log(array2)
-    $("ul").text(one);
-    $("ul").text(two);
+    $("#show").append("<ul><li>"+array[0]+"</li><li>"+array[2]+"</li></ul>")
 
 
   });
